@@ -2,7 +2,7 @@ import pyautogui
 import pyperclip
 import time
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBthkLAGNFuAmkGlT4-bw9BHIanpjxr0Ao")
+genai.configure(api_key="Api key here")
 def is_last_message_from_sender(chat_log, sender_name="Mehwish"):
     # Split the chat log into individual messages
     messages = chat_log.strip().split("/2025] ")[-1]
@@ -54,4 +54,5 @@ while True:
 
 # Step 3: Press Enter
         pyautogui.press("enter")
+
 
